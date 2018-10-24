@@ -1,3 +1,15 @@
+const readline = require('readline');
+
+const r = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+r.question('Number of statues > ', (answer) => {
+  console.log(printStatues(answer);
+  r.close();
+});
+
 function printStatues(count) {
   days = 0;
   statuesLeft = count;
