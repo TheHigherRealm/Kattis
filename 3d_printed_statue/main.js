@@ -12,5 +12,3 @@ function printStatues(count) {
   }
   return days
 }
-
-console.log(printStatues(5)); //OUTPUT: 4
